@@ -196,3 +196,37 @@ button:active {
   text-align: center;
   font-size: 0.8em;
 }
+.alert-have-book{
+  font-size: 0.7em;
+  color: red;
+  line-height: 10px;
+  border: 1px solid red;
+  padding: 3px;
+  border-radius: 3px;
+  background: #ffe6e9;
+  margin-top: 3px;
+}
+.link-more-details{
+  color: dodgerblue;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.closeModal{
+  float: right;
+  font-size: 0.9em;
+}
+.modal-body{
+  width: 600px;
+  height: 600px;
+  overflow-y: scroll;
+}
+.modal-body p{
+  font-size: 0.9em;
+  margin: 0;
+  padding: 0;
+  line-height: 18px;
+;
+}
+.modal-body .book-cover{
+  margin-bottom: 10px;
+}
